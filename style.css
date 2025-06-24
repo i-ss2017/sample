@@ -135,7 +135,7 @@ p {
 #hero {
     background-color: #007bff; /* メインビジュアルの背景色 */
     color: #fff;
-    padding: 100px 0;
+    padding: 70px 0;
     text-align: center;
     box-shadow: inset 0 -5px 10px rgba(0,0,0,0.1);
 }
