@@ -66,9 +66,9 @@ header nav ul li a:hover {
 /* 丸文字スタイル */
 .rounded-text {
     /* Mochiy Pop One を使用する場合 */
-    /* font-family: 'Mochiy Pop One', cursive; 
+     font-family: 'Mochiy Pop One', cursive; 
     /* M PLUS Rounded 1c を使用する場合（よりビジネス向けで丸みあり） */
-     font-family: 'M PLUS Rounded 1c', sans-serif;  
+    /* font-family: 'M PLUS Rounded 1c', sans-serif;  
     /* font-weight: bold; /* 必要であれば太字に */
 }
 
