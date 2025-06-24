@@ -557,3 +557,14 @@ footer nav ul li a:hover {
     color: #333;
     margin-bottom: 30px;
 }
+/* 土壌汚染調査ページの「調査の流れ」リストを左寄せにする */
+#service-detail .container ol {
+    text-align: left; /* リスト全体を左寄せに */
+    margin-left: auto; /* 中央寄せのリセット */
+    margin-right: auto; /* 中央寄せのリセット */
+    max-width: 700px; /* 必要であれば幅を制限 */
+}
+
+#service-detail .container ol li {
+    text-align: left; /* 各リスト項目を左寄せに */
+}
