@@ -37,7 +37,7 @@ header h1 {
 
 header h1 a {
     text-decoration: none;
-    color: #0056b3; /* ブランドカラーの例 */
+    color: #FF8C00; /* ブランドカラーの例 */
     font-weight: bold;
 }
 
@@ -74,7 +74,7 @@ header nav ul li a:hover {
 
 /* ロゴ画像のインラインスタイルをCSSに移動する場合の例 */
 header h1 a img {
-    height: 10px; /* 必要に応じて調整 */
+    height: 20px; /* 必要に応じて調整 */
     vertical-align: middle;
     margin-right: 10px;
 }
