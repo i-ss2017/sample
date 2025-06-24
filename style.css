@@ -63,6 +63,22 @@ header nav ul li a:hover {
     color: #007bff; /* ホバー時の色 */
 }
 
+/* 丸文字スタイル */
+.rounded-text {
+    /* Mochiy Pop One を使用する場合 */
+    font-family: 'Mochiy Pop One', cursive; 
+    /* M PLUS Rounded 1c を使用する場合（よりビジネス向けで丸みあり） */
+    /* font-family: 'M PLUS Rounded 1c', sans-serif; */ 
+    font-weight: bold; /* 必要であれば太字に */
+}
+
+/* ロゴ画像のインラインスタイルをCSSに移動する場合の例 */
+header h1 a img {
+    height: 30px; /* 必要に応じて調整 */
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
 /* メインコンテンツ */
 main {
     padding-bottom: 50px;
