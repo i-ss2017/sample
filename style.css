@@ -354,7 +354,7 @@ footer nav ul li a:hover {
 
 #page-hero p {
     font-size: 20px;
-    color: #000;
+    color: #222;
     opacity: 0.9;
 }
 
@@ -371,11 +371,11 @@ footer nav ul li a:hover {
     text-align: center; /* ページ内メイン見出しは中央 */
 }
 
-#service-detail h3::after {
+/*#service-detail h3::after {
     left: auto; /* 下線の位置調整をリセット */
-    transform: none; /* 中央寄せをリセット */
-    margin: 0 auto; /* 中央寄せ */
-}
+    /*transform: none; /* 中央寄せをリセット */
+    /*margin: 0 auto; /* 中央寄せ */
+/*}　*/
 
 #service-detail h4 {
     color: #007bff; /* セクション内小見出し */
