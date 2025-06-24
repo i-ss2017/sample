@@ -74,7 +74,7 @@ header nav ul li a:hover {
 
 /* ロゴ画像のインラインスタイルをCSSに移動する場合の例 */
 header h1 a img {
-    height: 50px; /* 必要に応じて調整 */
+    height: 35px; /* 必要に応じて調整 */
     vertical-align: middle;
     margin-right: 10px;
 }
