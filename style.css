@@ -78,7 +78,7 @@ header nav ul li a:hover {
 /*    vertical-align: middle;
     margin-right: 10px;
 }
-
+*/
 /* メインコンテンツ */
 main {
     padding-bottom: 50px;
@@ -116,7 +116,7 @@ h3::after { /* 見出しの下線 */
     transform: translateX(-50%);
     width: 60px;
     height: 3px;
-    background-color: #007bff;
+    background-color: #001bff;
 }
 
 h4 {
@@ -375,7 +375,7 @@ footer nav ul li a:hover {
     left: auto; /* 下線の位置調整をリセット */
     /*transform: none; /* 中央寄せをリセット */
     /*margin: 0 auto; /* 中央寄せ */
-/*}　*/
+}　*/
 
 #service-detail h4 {
     color: #007bff; /* セクション内小見出し */
@@ -387,7 +387,7 @@ footer nav ul li a:hover {
 }
 
 #service-detail h5 {
-    font-size: 25px;
+    font-size: 22px;
 }
 
 #service-detail ul {
