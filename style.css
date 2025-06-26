@@ -368,14 +368,14 @@ footer nav ul li a:hover {
     font-size: 26px;
     line-height: 1.5;
     color: #222;
-    text-align: center; /* ページ内メイン見出しは中央 */
+/*    text-align: center; /* ページ内メイン見出しは中央 */
 }
 
 /*#service-detail h3::after {
     left: auto; /* 下線の位置調整をリセット */
     /*transform: none; /* 中央寄せをリセット */
     /*margin: 0 auto; /* 中央寄せ */
-}　*/
+/*}　*/
 
 #service-detail h4 {
     color: #007bff; /* セクション内小見出し */
