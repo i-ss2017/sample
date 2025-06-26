@@ -391,9 +391,10 @@ footer nav ul li a:hover {
 }
 
 #service-detail h6 {
-    font-size: 28px;
+    font-size: 36px;
     color: #222;
     margin-bottom: 40px;
+    text-align: center;
 }
 
 #service-detail ul {
