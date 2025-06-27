@@ -449,7 +449,7 @@ footer nav ul li a:hover {
 .map-container {
     background-color: #e9e9e9;
     padding: 20px;
-    height: 400px; /* 地図の高さ */
+    height: 600px; /* 地図の高さ */
     /* display: flex;  ★削除★ */
     /* justify-content: center;  ★削除★ */
     /* align-items: center;  ★削除★ */
