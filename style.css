@@ -451,7 +451,7 @@ footer nav ul li a:hover {
     padding: 20px;
     /* height: 600px; */ /* ★この行は削除またはコメントアウト★ */
     position: relative; /* 子要素の絶対配置の基準にする */
-    padding-bottom: 75%; /* ★追加★ 16:9のアスペクト比 (縦の余白ができます) */
+    padding-bottom: 56.25%; /* ★追加★ 16:9のアスペクト比56.25% (縦の余白ができます) */
     /* あるいは、地図のコンテンツに合わせて調整してください。
        例えば、4:3なら padding-bottom: 75%;
        1:1 (正方形) なら padding-bottom: 100%; */
