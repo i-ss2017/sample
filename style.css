@@ -449,20 +449,26 @@ footer nav ul li a:hover {
 .map-container {
     background-color: #e9e9e9;
     padding: 20px;
-    height: 600px; /* 地図の高さ */
-    /* display: flex;  ★削除★ */
-    /* justify-content: center;  ★削除★ */
-    /* align-items: center;  ★削除★ */
-    color: #666;
+    /* height: 600px; */ /* ★この行は削除またはコメントアウト★ */
+    position: relative; /* 子要素の絶対配置の基準にする */
+    padding-bottom: 56.25%; /* ★追加★ 16:9のアスペクト比 (縦の余白ができます) */
+    /* あるいは、地図のコンテンツに合わせて調整してください。
+       例えば、4:3なら padding-bottom: 75%;
+       1:1 (正方形) なら padding-bottom: 100%; */
+    height: 0; /* padding-bottomで高さを確保するため、heightは0にする */
+    overflow: hidden; /* はみ出しを隠す */
     border-radius: 8px;
     margin-top: 30px;
     margin-bottom: 50px;
-    overflow: hidden; /* iframeがはみ出すのを防ぐ */
+    color: #666; /* 地図が読み込めない場合のテキスト色など */
 }
 
 .map-container iframe {
-    width: 100%;
-    height: 100% ; /* !important を追加 */;
+    position: absolute; /* 親要素に対して絶対配置 */
+    top: 20px;    /* 親のpadding-top分 */
+    left: 20px;   /* 親のpadding-left分 */
+    width: calc(100% - 40px);  /* 親の横幅から左右のpaddingを引く */
+    height: calc(100% - 40px) !important; /* 親の高さから上下のpaddingを引く */
     border: 0;
 }
 
