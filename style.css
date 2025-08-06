@@ -72,7 +72,7 @@ header nav ul li a:hover {
     /* font-weight: bold; /* 必要であれば太字に */
     /* Kiwi Maru を使用する場合 */
     /*  font-family: 'Kiwi Maru', serif; */
-    
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* ★追加★ 影のスタイル */
 }
 
 /* ロゴ画像のインラインスタイルをCSSに移動する場合の例 */
