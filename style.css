@@ -66,14 +66,14 @@ header nav ul li a:hover {
 /* 丸文字スタイル */
 .rounded-text {
     /* M PLUS Rounded 1c を使用する場合（よりビジネス向けで丸みあり） */
-    /* font-family: 'M PLUS Rounded 1c', sans-serif;  
+     font-family: 'M PLUS Rounded 1c', sans-serif;  
     /* font-weight: bold; /* 必要であれば太字に */
     /* Kosugi Maru を使用する場合 */
     /*font-family: 'Kosugi Maru', sans-serif;
     font-weight: bold;
-    /* Zen Maru Gothic を使用する場合 */
+    /* Zen Maru Gothic を使用する場合 
     font-family: 'Zen Maru Gothic', sans-serif;
-    font-weight: bold;
+    font-weight: bold;*/
 }
 
 /* ロゴ画像のインラインスタイルをCSSに移動する場合の例 */
