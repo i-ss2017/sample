@@ -68,10 +68,11 @@ header nav ul li a:hover {
     /* Mochiy Pop One を使用する場合 */
     /*font-family: 'Mochiy Pop One', cursive; 
     /* M PLUS Rounded 1c を使用する場合（よりビジネス向けで丸みあり） */
-     font-family: 'M PLUS Rounded 1c', sans-serif;  
+    /* font-family: 'M PLUS Rounded 1c', sans-serif;  
     /* font-weight: bold; /* 必要であれば太字に */
-    /* Kiwi Maru を使用する場合 */
-    /*  font-family: 'Kiwi Maru', serif; */
+    /* Kosugi Maru を使用する場合 */
+    font-family: 'Kosugi Maru', sans-serif;
+    font-weight: bold;
 }
 
 /* ロゴ画像のインラインスタイルをCSSに移動する場合の例 */
