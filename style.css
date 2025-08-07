@@ -66,13 +66,12 @@ header nav ul li a:hover {
 /* 丸文字スタイル */
 .rounded-text {
     /* Mochiy Pop One を使用する場合 */
-    font-family: 'Mochiy Pop One', cursive; 
+    /*font-family: 'Mochiy Pop One', cursive; 
     /* M PLUS Rounded 1c を使用する場合（よりビジネス向けで丸みあり） */
-    /* font-family: 'M PLUS Rounded 1c', sans-serif;  
+     font-family: 'M PLUS Rounded 1c', sans-serif;  
     /* font-weight: bold; /* 必要であれば太字に */
     /* Kiwi Maru を使用する場合 */
     /*  font-family: 'Kiwi Maru', serif; */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* ★追加★ 影のスタイル */
 }
 
 /* ロゴ画像のインラインスタイルをCSSに移動する場合の例 */
